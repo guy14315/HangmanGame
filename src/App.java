@@ -5,7 +5,7 @@ public class App {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new HangmanGUI().setVisible(true);
+                new MainMenu();
             }
         });
     }
