@@ -1,11 +1,11 @@
-public class HangmanLogic {
+public class Hangman {
 
     private String word;
     private String guessedLetters;
     private int attempsLeft;
     
     
-    public HangmanLogic() {
+    public Hangman() {
         this.word = word.toUpperCase();
         this.attempsLeft = 6;
         this.guessedLetters = "";

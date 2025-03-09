@@ -12,13 +12,14 @@ public class HangmanGUI extends JFrame {
 
 
     public HangmanGUI() {
-        super("Hangman Depressed guy");
+        super("HANGMAN");
         setSize(CommonConstants.FRAME_SIZE);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setLayout(null);
         setResizable(false);
-
+        setVisible(true);
+        
         wordPv = new WordProvider();
         wordChallenge = wordPv.getCategory();
 
